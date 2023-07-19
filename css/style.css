@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Mono&display=swap");
+
+@keyframes Tournaments {
+    0% {
+        background-color: transparent;
+    }
+
+    50%{
+        background-color: rgba(53, 57, 60, 0.3);
+    }
+    
+    100%{
+        background-color: transparent;
+    }
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("../assets/repino 2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Oswald", sans-serif;
+}
+
+section {
+  margin: 0 auto;
+  width: 920px;
+}
+
+header {
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  height: 150px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #7fd1b9;
+  color: #1b2f33;
+  font-size: 40px;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.pawn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90%;
+}
+
+.bishop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 90%;
+}
+
+.vsv {
+  padding: 15px;
+  width: 70px;
+  border-radius: 15px;
+  background-color: #4cbb17;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.vsv:hover {
+  background-color: #3b9212;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+
+.cls {
+  width: 25%;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.tourn {
+  text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+}
+
+iframe {
+    padding-bottom: 50px;
+}
+
+.back:hover {
+  animation: Tournaments 3s infinite;
+}
+
+.player {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 50px;
+}
